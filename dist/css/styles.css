@@ -1,11 +1,93 @@
 * {
   box-sizing: border-box; }
 
-body {
-  background: limegreen; }
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto; }
 
-h2 {
-  color: maroon;
-  border-bottom: 4px solid maroon; }
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin: 0;
+  background-color: #FAF9F5; }
+
+.column-container {
+  font-size: 0; }
+  .column-container > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium; }
+
+.header {
+  padding: 12px;
+  background-color: #fff; }
+
+.header img {
+  width: 110px; }
+
+.header img:hover {
+  cursor: pointer; }
+
+.header-icons {
+  color: #666; }
+
+.fa-home:hover {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+
+.fa-heart:hover {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+
+.fa-user:hover {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+
+.fa-shopping-cart:hover {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+
+.header-search-input {
+  width: 240px; }
+
+.btn-header {
+  width: 80px;
+  color: #fff;
+  background-color: #34A8C4; }
+
+.navbar-container {
+  border-top: .5px #E1E3DF solid;
+  border-bottom: .5px #E1E3DF solid;
+  background-color: #fff; }
+
+.navbar-item {
+  color: #777;
+  margin-left: 24px; }
+
+.navbar-item:hover {
+  text-decoration: none;
+  color: #222;
+  cursor: pointer; }
+
+.page-content {
+  margin-top: 12px;
+  margin-left: 0;
+  margin-right: 0; }
+
+.left {
+  width: 20%; }
+
+.right {
+  width: 80%; }
+
+.listing-left {
+  width: 60%; }
+
+.listing-right {
+  width: 40%; }
 
 /*# sourceMappingURL=styles.css.map*/
