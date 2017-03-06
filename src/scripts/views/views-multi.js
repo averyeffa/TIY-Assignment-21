@@ -60,9 +60,9 @@ const MultiItemView = Backbone.View.extend({
                   <div class="thumbnail "data-listingid="${itemModel.get('listing_id')}">
                     <img src="${imageSrc}">
                     <div class="caption">
-                      <h6>${itemModel.get('title')}</h6>
-                      <p>${itemModel.get('Shop').shop_name}</p>
-                      <p>$ ${itemModel.get('price')}</p>
+                      <h5>${itemModel.get('title')}</h5>
+                      <p class="multi-price">$ ${itemModel.get('price')}</p>
+                      <p class="multi-shop-name">${itemModel.get('Shop').shop_name}</p>
                     </div>
                   </div>
                 </div>`

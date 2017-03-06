@@ -19,7 +19,6 @@ body {
     font-size: medium; }
 
 .header {
-  padding: 12px;
   background-color: #fff; }
 
 .header img {
@@ -29,7 +28,19 @@ body {
   cursor: pointer; }
 
 .header-icons {
-  color: #666; }
+  color: #666;
+  float: right;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
+.header-icons > * {
+  border-left: .5px solid #eee;
+  padding: 12px; }
+
+.header-search-input,
+.header-search-btn {
+  margin-top: 16px; }
 
 .fa-home:hover {
   text-decoration: none;
@@ -51,8 +62,9 @@ body {
   color: #222;
   cursor: pointer; }
 
-.header-search-input {
-  width: 240px; }
+.header-search-input input {
+  width: 240px;
+  background-color: #FBFBFA; }
 
 .btn-header {
   width: 80px;
@@ -62,7 +74,9 @@ body {
 .navbar-container {
   border-top: .5px #E1E3DF solid;
   border-bottom: .5px #E1E3DF solid;
-  background-color: #fff; }
+  background-color: #fff;
+  padding: 12px 0px;
+  text-align: center; }
 
 .navbar-item {
   color: #777;
@@ -89,5 +103,14 @@ body {
 
 .listing-right {
   width: 40%; }
+
+.multi-price {
+  color: #7AC142;
+  font-size: 14px;
+  float: right; }
+
+.multi-shop-name {
+  color: #9A9A9A;
+  font-size: 14px; }
 
 /*# sourceMappingURL=styles.css.map*/
